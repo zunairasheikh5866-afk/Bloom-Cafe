@@ -1,0 +1,73 @@
+*{margin: 0; padding: 0;
+box-sizing: border-box;}
+
+/* header section------------------------------ */
+.navbar{
+    margin: 0; 
+    text-decoration: none;
+    display: flex; 
+    justify-content: space-between;
+    gap: 25px;
+    padding: 10px;
+}
+.navbar h1{ font-size: x-large;}
+
+a{text-decoration: none; color: black;
+margin: 5px; font-weight : bold}
+
+/* -------------header section end------------ */
+
+/* content text------------------------------------- */
+
+.containertxt{
+    height: 135px; 
+    background-color: #ffd0d7;
+    text-align: center;
+    
+}
+.containertxt p{
+    font-size: 15px; 
+    color:rgb(71, 66, 66);
+    margin: 10px;
+}
+.containertxt h1{
+     font-size: xx-large; 
+    color:rgb(76, 8, 8); text-align: center; margin-top: 20px;
+}
+.btn{
+    border: none;
+    background-color: rgb(193, 85, 68);
+    border-radius: 20px; 
+    color: #ffffff; 
+    height: 35px;
+     width: 110px ; 
+     font-size: 15;  font-weight: bold;
+}
+
+/* content text end-------------------------- */
+
+/* image---------------------------------- */
+#imgs img{
+    width:200px; height: 200px; margin: 10px;
+    border-radius: 10px; margin-top: 20px;
+    object-fit: cover;
+}
+#imgs figure{
+   text-align: center; font-weight: bold;
+}
+#imgs{display: flex;
+ justify-content: center;}
+
+ #imgs span{ color: brown; } 
+
+/* close image section-------------- */
+
+/* footer------------------------------------------------- */
+.footer{background-color: rgb(97, 34, 34);
+height: 50px; 
+width:auto;
+margin-top: 10px;
+color: #fff9fa; display:flex; justify-content: center;
+align-items: center;}
+
+/* footer end------------------ */
